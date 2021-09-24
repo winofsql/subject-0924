@@ -1,0 +1,3 @@
+mysqldump --host=localhost --user=root --password= lightbox > lightbox-backup.sql 
+mysql -h localhost -u root -D lightbox --password= 
+mysql -h localhost -u root -D lightbox --password= < lightbox-sample.txt 
